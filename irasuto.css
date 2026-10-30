@@ -1,0 +1,43 @@
+body {
+  background-image: url('https://i.gyazo.com/e0d3c1bc2c3d6c5193748290b5769ea5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  color: #333333;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* bodyの外に出す！ */
+.gallery-img {
+  max-width: 400px;
+  width:100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.quick-menu {
+  position: fixed;
+  right: 20px;
+  top: 50px;
+  background: white;
+  padding:10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.quick-menu a{
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+/*一枚目のイラストの大きさ調整*/
+.gallery-item:first-of-type .gallery-img {
+  max-width: 800px;
+}
